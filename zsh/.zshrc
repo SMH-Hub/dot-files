@@ -8,7 +8,7 @@ precmd_vcs_info() { vcs_info }
 precmd_functions+=( precmd_vcs_info )
 setopt prompt_subst
 zstyle ':vcs_info:git:*' formats '%F{220}(%b)%f'
-PROMPT='%(?.%F{green}√.%F{red}?)%f %B%F{240}%5~%f $vcs_info_msg_0_%b %# '
+PROMPT='%(?.%F{46}√.%F{160}?)%f %B%F{250}%5~%f $vcs_info_msg_0_%b %# '
 
 # History settings
 HISTFILE=~/.zsh_hist

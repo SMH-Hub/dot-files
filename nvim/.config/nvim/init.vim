@@ -1,2 +1,2 @@
-set number relative number
+set relativenumber
 syntax on
